@@ -1,8 +1,7 @@
 ---
 title: "Fastest Privesc on Grub"
-description: "Imagine a world without encrypted LVM"
-authors: ["FreezingKas"]
-publish_date: "2022-12-13"
+author: "FreezingKas"
+context: "Networking Security"
 tags : ["System", "Privesc"]
 ---
 # Fastest Privesc on Grub 
