@@ -2,7 +2,7 @@
 title: "Intrusion - Scada"
 author: "xThaz"
 context: "HTB Business 2023"
-tags : ["Write-Up", HTB"]
+tags : ["Write-Up", "HTB"]
 ---
 # Intrusion - SCADA
 
