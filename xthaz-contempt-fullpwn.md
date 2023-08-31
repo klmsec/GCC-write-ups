@@ -2,7 +2,7 @@
 title: "Contempt & Contempt revenge, how to bypass the fixed machines"
 author: "xThaz"
 context: "HTB Business 2023"
-tags : ["Write-Up", HTB", "AD"]
+tags : ["Write-Up", "HTB", "AD"]
 ---
 
 # Contempt - Fullpwn
