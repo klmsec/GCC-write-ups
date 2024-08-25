@@ -59,7 +59,7 @@ tags:
 
 ###  2.3 English language and translations
 
-Currently, only two languages are available on the blog, english (main) and french (secondary). If you wish to write your post in french too, please add a `index.fr.md` in your post directory. Even if you don't wish to write a french version, please copy `index.md` to `index.fr.md`. This will allow readers who have french language selected to still be able to view your content but in english :). 
+Currently, only two languages are available on the blog, english (main) and french (secondary). If you wish to write your post in french too, please add an `index.fr.md` in your post directory. Even if you don't wish to write a french version, please copy `index.md` to `index.fr.md`. This will allow readers who have french language selected to still be able to view your content but in english :). 
 
 ## 3. Have your post published
 
