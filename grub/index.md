@@ -1,9 +1,19 @@
 ---
-title: "Fastest Privesc on Grub"
-author: "FreezingKas"
-context: "Networking Security"
-tags : ["System", "Privesc"]
+author: FreezingKas
+title: The fastest privilege escalation on GRUB
+description: In this post, FreezingKas will teach you how to easily privesc on GRUB.
+slug: fastest-grub-privilege-escalation
+date: 2023-03-24 00:00:00+0000
+#lastUpdated: Jul 24, 2023 10:00 UTC
+image: assets/grub.jpg
+categories:
+    - Privilege Escalation
+tags:
+    - Grub
+    - System
+    - Linux
 ---
+
 # Fastest Privesc on Grub 
 ## Context
 
