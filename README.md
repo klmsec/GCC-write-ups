@@ -17,8 +17,8 @@ Once you've created your branch, create a directory at the root of the repositor
     ├── assets
     │   ├── cover.png   -> the cover image used for the post
     │   └── *           -> all your other assets go into this directory
-    ├── index.fr.md     -> your blogpost written in markdown, french version (optional)
-    └── index.md        -> your blogpost written in markdown, english version (mandatory)
+    ├── index.fr.md     -> your blogpost written in markdown, french version 
+    └── index.md        -> your blogpost written in markdown, english version
 ```
 
 ### 2.2 Markdown files structure
@@ -51,7 +51,7 @@ tags:
 
 ###  2.3 English language and translations
 
-Currently, only two languages are available on the blog, english (main) and french (secondary). If you wish to write your post in french too, please add a `index.fr.md` in your post directory. This isn't mandatory, if you choose not to write any french translation, your post will be available in english for people who have set the website language to french.
+Currently, only two languages are available on the blog, english (main) and french (secondary). If you wish to write your post in french too, please add a `index.fr.md` in your post directory. Even if you don't wish to write a french version, please copy `index.md` to `index.fr.md`. This will allow readers who have french language selected to still be able to view your content but in english :). 
 
 ## 3. Have your post published
 
