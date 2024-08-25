@@ -1,8 +1,18 @@
 ---
-title: "Confidentiality HTB Business 2023"
-author: "K.L.M"
-context: "HTB Business 2023"
-tags: ["Web3","Blockchain"]
+author: K.L.M
+title: HTB Business 2023 - Confidentiality Writeup
+description: K.L.M will guide you through the resolution of the confidentiality challenge from HTB Business 2023.
+slug: confidentiality-web3
+date: 2023-09-05 00:00:00+0000
+#lastUpdated: Jul 24, 2023 10:00 UTC
+image: assets/cover.png
+categories:
+    - Web3
+tags:
+    - HackTheBox
+    - CTF
+    - WriteUp
+    - Blockchain
 ---
 
 # HTB Business 2023 : Confidentiality (Web3)

@@ -1,10 +1,19 @@
 ---
-title: "Contempt & Contempt revenge, how to bypass the fixed machines"
-author: "xThaz"
-context: "HTB Business 2023"
-tags : ["Write-Up", "HTB", "AD"]
+author: xThaz
+title: HTB Business 2023 - Contempt Writeup
+description: xThaz will guide you through the resolution of the contempt challenge from HTB Business 2023.
+slug: contempt-fullpwn
+date: 2023-08-31 00:00:00+0000
+#lastUpdated: Jul 24, 2023 10:00 UTC
+image: assets/manager.png
+categories:
+    - Active Directory
+tags:
+    - HackTheBox
+    - CTF
+    - WriteUp
+    - Fullpwn
 ---
-
 # Contempt - Fullpwn
 
 Contempt was an hard rated Active Directory machine present at the HackTheBox Business CTF 2023. This article aims to write-up how I found two unintended ways that allowed me to get the root flag realy quickly. Thus, in both **contempt** and **contempt - revenge** (supposed to fix the unintended way).
