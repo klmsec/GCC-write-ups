@@ -6,15 +6,15 @@ This repository is built to contain all the write-ups/posts from the [gcc-ensibs
 
 ## 2. Write your own post
 
-    1. Fork this repository
-    2. `git clone https://github.com/<your_username>/write-ups`
-    3. `cd write-ups`
-    4. git checkout -b <your_branch_name>
-    5. add your post by following 2.1, 2.2, 2.3
-    6. `git add .` 
-    7. `git commit -m "add new post"`
-    8. git push origin <your_branch_name>
-    9. Create a pull request from your repo to our main branch
+1. Fork this repository
+2. `git clone https://github.com/<your_username>/write-ups`
+3. `cd write-ups`
+4. git checkout -b <your_branch_name>
+5. add your post by following 2.1, 2.2, 2.3
+6. `git add .` 
+7. `git commit -m "add new post"`
+8. `git push origin <your_branch_name>`
+9. Create a pull request from your repo to our main branch
 
 ###  2.1 File structure 
 
