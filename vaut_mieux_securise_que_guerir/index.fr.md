@@ -1,6 +1,6 @@
 ---
 author: K.L.M
-title: 404CTF - Vaut mieux sécuriser que guérir - Moyen
+title: 404CTF - Vaut mieux sécuriser que guérir
 description: Write-Up du challenge de forensic du 404 CTF 2024
 slug: vaut-mieux-securise-que-guerir-forensic                   
 date: 2023-12-31 00:00:00+0000
@@ -13,7 +13,7 @@ tags:
     - K.L.M
 ---
 
-# 404CTF - Vaut mieux sécuriser que guérir - Moyen
+# 404CTF - Vaut mieux sécuriser que guérir
 
 ---
 ## Description
