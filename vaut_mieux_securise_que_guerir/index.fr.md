@@ -27,7 +27,7 @@ Les deux parties sont séparées d'un tiret "-". Par exemple si le flag de la pr
 ## Premiers pas 
 Après avoir dézippé le dump, j'ai utilisé `volatility` afin de commencer une reconnaissance basique.
 
-##### Les Process
+#### Les Process
 Rien de très fameux, on note que l'explorer est ouvert et PowerShell a été lancé :
 ```Volatility Foundation Volatility Framework 2.6.1
 Name                                                  Pid   PPid   Thds   Hnds Time
@@ -63,7 +63,7 @@ DataSectionObject       0xd50ebb98a080  ConsoleHost_history.txt file.0xd50ebb98a
 klm@KLM:~/CTFs/40424$ cat file.0xd50ebb98a080.0xd50eb945d010.DataSectionObject.ConsoleHost_history.txt.dat
 rm hacked.ps1
 ```
-###### Tiens tiens tiens.
+#### Tiens tiens tiens.
 Petit strings des familles :
 ```
 klm@KLM:~/CTFs/40424$ strings memory.dmp | grep -Fi "hacked.ps1"
@@ -78,7 +78,7 @@ GET /hacked.ps1 HTTP/1.1
 ```
 Ce qui nous intéresse ici c'est le `GET /hacked.ps1 HTTP/1.1`
 
-##### Récupérer un fichier supprimé ?
+#### Récupérer un fichier supprimé ?
 J'ai passé une petite heure à essayer de récupérer le script sans succès. En passant par la table MFT, scrollant à l'infini dans HxD sans rien trouver jusqu'à ce que je me demande si c'était possible de récupérer les paquets HTTP du dump.
 
 J'ai donc trouvé un super plugin : https://github.com/Memoryforensics/carve_packets
